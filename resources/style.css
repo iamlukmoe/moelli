@@ -1,1 +1,38 @@
 
+.navbar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-top: 63px;
+    margin-bottom: 63px;
+    padding-right: 63px;
+    padding-left: 63px;
+}
+
+nav {
+    display: flex;
+    position: relative;
+    font-size: 14px;
+}
+
+nav ul {
+    display: flex;
+}
+
+a {
+    color: black;
+    text-decoration: none;
+}
+
+a:hover {
+    text-decoration: underline;
+}
+
+nav ul li {
+    list-style-type: none;
+    margin-right: 40px;
+};
+
+nav ul li:last-child {
+    margin-right: 0px;
+}
