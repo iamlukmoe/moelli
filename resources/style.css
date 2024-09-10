@@ -22,9 +22,12 @@
     padding-left: 63px;
 }
 
+.navbar img {
+    max-width: 100px;
+};
+
 nav {
-    display: flex;
-    position: relative;
+    justify-content: flex-end;
     font-size: 14px;
 }
 
@@ -44,6 +47,7 @@ a:hover {
 nav ul li {
     list-style-type: none;
     margin-right: 40px;
+    text-align: right;
 };
 
 nav ul li:last-child {
