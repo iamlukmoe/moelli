@@ -1,3 +1,16 @@
+@font-face {
+    font-family: 'NeueBeba-Light';
+    src:  url('./fonts/BebasNeue/Commercial/TTF/BebasNeue-Light.ttf') format('truetype');
+  }
+
+@font-face {
+    font-family: 'NeueBeba-Bold';
+    src: url(./fonts/BebasNeue/Commercial/TTF/BebasNeue-Bold.ttf) format('truetype');
+}
+
+* {
+    font-family: 'NeueBeba-Light';
+}
 
 .navbar {
     display: flex;
