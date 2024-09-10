@@ -8,10 +8,6 @@
     src: url(./fonts/BebasNeue/Commercial/TTF/BebasNeue-Bold.ttf) format('truetype');
 }
 
-* {
-    font-family: 'NeueBeba-Light';
-}
-
 .navbar {
     display: flex;
     justify-content: space-between;
@@ -27,12 +23,13 @@
 };
 
 nav {
-    justify-content: flex-end;
-    font-size: 14px;
+    margin-left: auto;
 }
 
 nav ul {
     display: flex;
+    font-family: 'NeueBeba-Light';
+    font-size: 16px;
 }
 
 a {
@@ -46,10 +43,5 @@ a:hover {
 
 nav ul li {
     list-style-type: none;
-    margin-right: 40px;
-    text-align: right;
+    margin-left: 40px;
 };
-
-nav ul li:last-child {
-    margin-right: 0px;
-}
