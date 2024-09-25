@@ -8,14 +8,29 @@
     src: url(./fonts/BebasNeue/Commercial/TTF/BebasNeue-Bold.ttf) format('truetype');
 }
 
+h1 {
+    font-family: 'NeueBeba-Bold';
+    margin: 0px;
+    padding-bottom: 15px;
+}
+
+p, span, li, a {
+    font-family: 'NeueBeba-Light';
+    padding-bottom: 15px;
+}
+
+body {
+    margin: 0;
+}
+
 .navbar {
     display: flex;
     justify-content: space-between;
     align-items: center;
+    padding-left: 63px;
+    padding-right: 63px;
     margin-top: 63px;
     margin-bottom: 63px;
-    padding-right: 63px;
-    padding-left: 63px;
 }
 
 .navbar img {
@@ -28,8 +43,7 @@ nav {
 
 nav ul {
     display: flex;
-    font-family: 'NeueBeba-Light';
-    font-size: 16px;
+    font-size: 20px;
 }
 
 a {
@@ -45,3 +59,41 @@ nav ul li {
     list-style-type: none;
     margin-left: 40px;
 };
+
+footer {
+    display: flex;
+    padding: 0;
+}
+
+.footer {
+    display: flex;
+    height: 200px;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-color: lightgrey;
+}
+
+.footer input[type="email"] {
+    color: black;
+    padding: 10px 20px;
+    font-family: 'NeueBeba-Light';
+}
+.footer input[type="email"]:focus {
+    outline: none;
+}
+
+.footer input[type="email"]::placeholder {
+    color: lightgrey;
+}
+
+.footer input[type="submit"] {
+    border-color: black;;
+    font-family: 'NeueBeba-Light';
+    padding: 10px 30px;
+}
+
+.footer input[type="submit"]:hover {
+    background-color: black;
+    color: white;
+}
