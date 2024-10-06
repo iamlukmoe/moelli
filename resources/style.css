@@ -127,6 +127,10 @@ footer {
 
 /* ABOUT */
 .image-me {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 0 63px 0 63px;
     margin-bottom: 63px;
 }
 .image-me img {
