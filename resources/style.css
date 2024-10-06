@@ -17,9 +17,12 @@ h1 {
 p, span, li, a {
     font-family: 'NeueBeba-Light';
     padding-bottom: 15px;
+    font-size: 20px;
 }
 
 body {
+    display: flex;
+    flex-direction: column;
     margin: 0;
 }
 
@@ -58,16 +61,38 @@ a:hover {
 nav ul li {
     list-style-type: none;
     margin-left: 40px;
-};
+}
+
+.main {
+    flex: 1;
+}
+
+.copy-image-gallery {
+    padding: 0 63px 0 63px;
+    margin-bottom: 15px;
+}
+
+.image-gallery {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0 63px 0 63px;
+    gap: 20px;
+}
+
+.gallery-image img {
+    max-width: 100%;
+}
 
 footer {
-    display: flex;
     padding: 0;
+    margin-top: 63px;
 }
 
 .footer {
     display: flex;
     height: 200px;
+    width: 100%;
     flex-direction: column;
     justify-content: center;
     align-items: center;
@@ -96,4 +121,18 @@ footer {
 .footer input[type="submit"]:hover {
     background-color: black;
     color: white;
+    border-color: black;
+    box-shadow: none;
+}
+
+/* ABOUT */
+.image-me {
+    margin-bottom: 63px;
+}
+.image-me img {
+    max-width: 100%;
+}
+
+.copy-about {
+    padding: 0 63px 0 63px;
 }
