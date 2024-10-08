@@ -26,6 +26,13 @@ body {
     margin: 0;
 }
 
+button, 
+input[type="button"], 
+input[type="submit"] {
+    -webkit-appearance: none; /* Remove default styling */
+    appearance: none;
+}
+
 .navbar {
     display: flex;
     justify-content: space-between;
@@ -384,6 +391,7 @@ textarea {
 .submit-button-contact input[type="submit"] {
     background-color: white;
     border-color: #000000;
+    color: black;
     padding: 10px;
 }
 
