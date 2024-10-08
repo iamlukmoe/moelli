@@ -302,6 +302,7 @@ footer {
     border-color: black;;
     font-family: 'NeueBeba-Light';
     padding: 10px 30px;
+    color: black;
 }
 
 .footer input[type="submit"]:hover {
