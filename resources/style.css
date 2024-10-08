@@ -310,6 +310,12 @@ footer {
     box-shadow: none;
 }
 
+/* PROJECTS */
+.copy-projects {
+    padding: 0 63px 0 63px;
+    margin-bottom: 200px;
+}
+
 /* ABOUT */
 .image-me {
     display: flex;
@@ -318,6 +324,7 @@ footer {
     padding: 0 63px 0 63px;
     margin-bottom: 63px;
 }
+
 .image-me img {
     max-width: 100%;
 }
