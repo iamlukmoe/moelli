@@ -26,13 +26,6 @@ body {
     margin: 0;
 }
 
-button, 
-input[type="button"], 
-input[type="submit"] {
-    -webkit-appearance: none; /* Remove default styling */
-    appearance: none;
-}
-
 .navbar {
     display: flex;
     justify-content: space-between;
@@ -123,6 +116,7 @@ footer {
     border-color: black;;
     font-family: 'NeueBeba-Light';
     padding: 10px 30px;
+    background-color: white;
 }
 
 .footer input[type="submit"]:hover {
@@ -458,6 +452,7 @@ textarea {
 
     .nav-toggle {
         display: block; /* Show the toggle button on mobile */
+        color: black;
     }
 
     .nav-close {
